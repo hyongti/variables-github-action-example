@@ -9,6 +9,7 @@ on:
 jobs:
   sync-figma-to-tokens:
     runs-on: ubuntu-latest
+    environment: figma
     permissions:
       # Need to be able to create new branches and commits
       contents: write
